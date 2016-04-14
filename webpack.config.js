@@ -46,12 +46,12 @@ if (NODE_ENV === 'production') {
   module.exports = {
     entry: ['./index.js'],
     output: {
-      path: 'build',
       filename: 'bundle.js'
     },
     plugins: [
       new HtmlPlugin({
         template: './index.html',
+        hash: true,
         inject: 'body'
       }),
       new webpack.optimize.UglifyJsPlugin({
