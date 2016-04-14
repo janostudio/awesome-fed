@@ -1,0 +1,6 @@
+*.log
+.idea
+.svn
+.DS_Store
+node_modules
+
