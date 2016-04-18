@@ -23,7 +23,7 @@ if (NODE_ENV === 'local') {
       new webpack.HotModuleReplacementPlugin(),
       new webpack.NoErrorsPlugin(),
       new HtmlPlugin({
-        template: './index.html',
+        template: 'template.html',
         inject: 'body'
       })
     ],
@@ -50,7 +50,8 @@ if (NODE_ENV === 'production') {
     },
     plugins: [
       new HtmlPlugin({
-        template: './index.html',
+        filename: 'index.html',
+        template: 'template.html',
         hash: true,
         inject: 'body'
       }),

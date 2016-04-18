@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "d3": "~3.5.16",
-    "enhanced-markmap": "0.0.8",
+    "enhanced-markmap": "0.0.9",
     "remarkable": "~1.6.2"
   },
   "devDependencies": {
