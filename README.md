@@ -1,6 +1,6 @@
 # ![](http://gtms04.alicdn.com/tps/i4/TB1HI36LVXXXXcgXVXXd3TPHFXX-60-40.png) 淘宝前端技术图谱
 
-https://rawgit.com/taobaofed/awesome-fed/master/index.html
+https://cdn.rawgit.com/taobaofed/awesome-fed/master/index.html
 
 ## 基础知识体系
 
